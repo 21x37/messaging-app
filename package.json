@@ -1,0 +1,23 @@
+{
+  "name": "mesij",
+  "version": "1.0.0",
+  "description": "Socket IO chat application.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js  --exec babel-node -e js"
+  },
+  "author": "21X37",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.16.4",
+    "socket.io": "^2.2.0",
+    "nodemon": "^1.18.9",
+    "http-server": "^0.11.1"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.6.1",
+    "babel-preset-stage-0": "^6.24.1"
+  }
+}
